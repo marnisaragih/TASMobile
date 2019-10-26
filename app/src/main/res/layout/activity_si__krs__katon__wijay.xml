@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SI_KRS_KATON_WIJAYA">
+
+    <TextView
+        android:id="@+id/Dosen"
+        android:layout_width="276dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="16dp"
+        android:text="SI KRS - MARNI EVA KRISTINA"
+        android:textColor="#FCFA0941"
+        android:textColorHighlight="#DB0E0E"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textZise="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="70dp"
+        android:layout_height="56dp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="62dp"
+        tools:srcCompat="@tools:sample/avatars[0]" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data Diri"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        app:srcCompat="@drawable/ic_launcher"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <Button
+        android:id="@+id/DaftarKRS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daftar Krs"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="114dp"
+        android:layout_height="91dp"
+        app:srcCompat="@android:drawable/alert_dark_frame"
+        tools:layout_editor_absoluteX="277dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <Button
+        android:id="@+id/Kelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lihat Kelas"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="133dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
